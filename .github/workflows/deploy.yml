@@ -16,7 +16,7 @@ jobs:
     - name: Login to Azure
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.AZURECREDENTIALS }}
 
     - name: Upload website files
       run: |
