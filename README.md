@@ -38,5 +38,5 @@ This is my static website deployment project for my capstone. The site is a text
 ![Azure portal](./screenshots/static-site.png.png)
 ![Azure portal](./screenshots/storage-account.png.png)
 
-**GitHub Actions Worflow run**
+**GitHub Actions Workflow run**
 ![GitHub Actions](./screenshots/github--actions.png.png)
