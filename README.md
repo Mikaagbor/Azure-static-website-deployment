@@ -16,7 +16,7 @@ This is my static website deployment project for my capstone. The site is a text
 - Icons: Font Awesome (fontawesome.io)
 - Libraries: jQuery, Scrollex, Responsive Tools
 
-*test commmit to trigger GitHub Actions workflow*
+*Trigger GitHub Actions workflow for deployment test*
 
 ## Deployment Instructions
 1. Clone this repository:
