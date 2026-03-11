@@ -22,3 +22,18 @@ This is my static website deployment project for my capstone. The site is a text
 1. Clone this repository:
    ```bash
    git clone https://github.com/Mikaagbor/azure-static-website-deployment.git
+
+## Screenshots
+
+**live Websites**
+![live website](./screenshots/live%20-website2.png.png)
+![live website](./screenshots/live-website1.png.png)
+![live website](./screenshots/live-website3.png.png)
+![live website](./screenshots/live-website4.png.png)
+
+**Azure CLI Deployments**
+![Azure CLI](./screenshots/azure-cli-storageupload-success.png)
+
+**Azure portal success**
+![Azure portal](./screenshots/static-site.png.png)
+![Azure portal](./screenshots/storage-account.png.png)
