@@ -4,18 +4,18 @@ RESOURCE_GROUP="static-site-rg"
 STORAGE_ACCOUNT="mikastaticweb412"
 LOCATION="eastus"
 
-az group create --name $RESOOURCE_GROUP --location $LOCATION
+az group create --name $RESOURCE_GROUP --location $LOCATION
 
 az storage account create \
 --name $STORAGE_ACCOUNT \
---resource-group $RESOOURCE_GROUP \
+--resource-group $RESOURCE_GROUP \
 --location $LOCATION \
 --sku Standard_LRS
 
 az storage blob service-properties update 
 --account-name $STORAGE_ACCOUNT \
 --static-website \
---index-doocument index.html \
+--index-document index.html \
 --auth-mode login
 
 az storage blob upload-batch \
